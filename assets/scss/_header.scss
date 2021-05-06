@@ -1,0 +1,24 @@
+// to remove margin before the title
+.ast-separate-container #primary,
+.ast-separate-container.ast-left-sidebar #primary,
+.ast-separate-container.ast-right-sidebar #primary {
+	margin: 0;
+}
+
+.full-width-title {
+	#main {
+		position: relative;
+		z-index: 0;
+		margin: 0 -10000px;
+		padding: 0 9985px;
+		background: #14c07b;
+	}
+	.ast-article-single {
+		background-color: transparent !important;
+		color: white;
+		text-align: center;
+		h1 {
+			color: white;
+		}
+	}
+}

@@ -1,0 +1,13 @@
+{
+	"name": "bountiful/community-child-theme",
+	"type": "wordpress-theme",
+	"description": "Bountiful's WordPress child theme of Astra",
+	"homepage": "https://bountiful.land/",
+	"authors": [
+	  {
+		 "name": "Ben Rich",
+		 "email": "hello@benrich.uk",
+		 "homepage": "https://benrich.uk"
+	  }
+	]
+}

@@ -1,0 +1,13 @@
+.chef-list {
+	display: flex;
+	flex-wrap: wrap;
+	background: white;
+
+	.chef {
+		flex: 1 0 21%;
+		margin: 15px;
+
+		h2 {
+		}
+	}
+}

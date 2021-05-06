@@ -1,0 +1,25 @@
+$offBlack: #405379;
+$offBackground: #f3f5f9;
+
+$breakpoint_mobile: 544px;
+$breakpoint_tablet: 921px;
+
+@import 'header';
+@import 'footer';
+@import 'blog';
+@import 'chefs';
+
+.ast-single-post h1.entry-title,
+.page-title {
+	font-size: 3em;
+	font-weight: bold;
+}
+
+.saboxplugin-wrap {
+	position: relative;
+	z-index: 0;
+	margin: 0 -10000px;
+	padding: 20px 9985px !important;
+	background-color: $offBackground !important;
+	width: initial !important;
+}

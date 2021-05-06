@@ -1,0 +1,27 @@
+.site-footer {
+	.site-primary-footer-wrap {
+		border-bottom: 1px solid #92775c;
+	}
+
+	h2 {
+		margin-bottom: 1em;
+		font-size: 16px;
+		font-weight: 800;
+		color: white;
+
+		&.logo {
+			font-family: Pacifico, cursive;
+			font-size: 22px;
+		}
+	}
+
+	@media (min-width: 1025px) {
+		p {
+			width: 80%;
+		}
+	}
+
+	ul li {
+		font-weight: 200;
+	}
+}

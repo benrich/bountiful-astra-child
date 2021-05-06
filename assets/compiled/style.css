@@ -1,0 +1,117 @@
+@charset "UTF-8";
+.ast-separate-container #primary,
+.ast-separate-container.ast-left-sidebar #primary,
+.ast-separate-container.ast-right-sidebar #primary {
+  margin: 0; }
+
+.full-width-title #main {
+  position: relative;
+  z-index: 0;
+  margin: 0 -10000px;
+  padding: 0 9985px;
+  background: #14c07b; }
+
+.full-width-title .ast-article-single {
+  background-color: transparent !important;
+  color: white;
+  text-align: center; }
+  .full-width-title .ast-article-single h1 {
+    color: white; }
+
+.site-footer .site-primary-footer-wrap {
+  border-bottom: 1px solid #92775c; }
+
+.site-footer h2 {
+  margin-bottom: 1em;
+  font-size: 16px;
+  font-weight: 800;
+  color: white; }
+  .site-footer h2.logo {
+    font-family: Pacifico, cursive;
+    font-size: 22px; }
+
+@media (min-width: 1025px) {
+  .site-footer p {
+    width: 80%; } }
+
+.site-footer ul li {
+  font-weight: 200; }
+
+@media (min-width: 922px) {
+  .ast-separate-container .ast-article-post,
+  .ast-separate-container .ast-article-single {
+    padding: 2em 0; }
+  body.single-post .post-list,
+  body.single-post .site-main,
+  body.page-id-40 .post-list,
+  body.page-id-40 .site-main {
+    padding-left: 10em;
+    padding-right: 10em; } }
+
+.post-list .list-intro {
+  margin: 30px 0 15px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #405379; }
+
+.post-list h2 {
+  font-weight: bold;
+  margin: 5px 0 10px; }
+
+.post-list p {
+  color: #405379;
+  line-height: 19px;
+  font-size: 14px;
+  margin: 10px 0; }
+
+.post-list .categories,
+.entry-header .categories {
+  color: blue;
+  text-transform: uppercase; }
+
+.post-list .post-meta,
+.entry-header .post-meta {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 0.85em; }
+  .post-list .post-meta > div,
+  .entry-header .post-meta > div {
+    margin-right: 6px; }
+  .post-list .post-meta .post-date::after,
+  .entry-header .post-meta .post-date::after {
+    content: '•'; }
+  .post-list .post-meta .post-tags,
+  .entry-header .post-meta .post-tags {
+    margin: 4px 8px 4px 0;
+    font-weight: normal; }
+    .post-list .post-meta .post-tags a,
+    .entry-header .post-meta .post-tags a {
+      background-color: #f3f5f9;
+      border-radius: 3px;
+      color: #031b4e;
+      padding: 4px 8px;
+      margin-right: 7px; }
+
+.chef-list {
+  display: flex;
+  flex-wrap: wrap;
+  background: white; }
+  .chef-list .chef {
+    flex: 1 0 21%;
+    margin: 15px; }
+
+.ast-single-post h1.entry-title,
+.page-title {
+  font-size: 3em;
+  font-weight: bold; }
+
+.saboxplugin-wrap {
+  position: relative;
+  z-index: 0;
+  margin: 0 -10000px;
+  padding: 20px 9985px !important;
+  background-color: #f3f5f9 !important;
+  width: initial !important; }
+
+/*# sourceMappingURL=../map/style.css.map */
